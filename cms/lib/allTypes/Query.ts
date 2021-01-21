@@ -1,5 +1,5 @@
 import { queryType, idArg } from "@nexus/schema";
-import { data } from "src/data";
+import { data } from "cms/lib/data";
 import { Bio, Position } from "./index";
 
 export const Query = queryType({
