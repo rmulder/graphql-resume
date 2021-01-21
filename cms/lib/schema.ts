@@ -6,7 +6,7 @@ export const schema = makeSchema({
   types,
   outputs: {
     schema: path.join(process.cwd(), "schema.graphql"),
-    typegen: path.join(process.cwd(), "src", "generated", "nexus.ts"),
+    typegen: path.join(process.cwd(), "cms", "lib", "generated", "nexus.ts"),
   },
   typegenAutoConfig: {
     sources: [
