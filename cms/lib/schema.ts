@@ -12,7 +12,7 @@ export const schema = makeSchema({
     sources: [
       {
         alias: "faces",
-        source: path.join(process.cwd(), "src", "interfaces.ts"),
+        source: path.join(process.cwd(), "cms", "lib", "interfaces.ts"),
         typeMatch: (type) => new RegExp(`(${type}Interface)`),
       },
     ],
